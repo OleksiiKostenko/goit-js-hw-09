@@ -16,3 +16,17 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.button{
+  margin-top: 40%;
+  width: 100px;
+  height: 70px;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.body_color{
+  display: inline-flex;
+}

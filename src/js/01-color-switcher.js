@@ -13,6 +13,8 @@ function getRandomHexColor() {
 
 function startColorChange() {
     timerId = setInterval(() => {
+        stopBtn.style.backgroundColor = '#ff0000';
+        startBtn.style.backgroundColor = '';
         setBodyColor.style.backgroundColor = getRandomHexColor();
     }, 1000);
         startBtn.disabled = true;
@@ -20,6 +22,8 @@ function startColorChange() {
 
 function stopColorChange() {
     clearInterval(timerId);
+    stopBtn.style.backgroundColor = '';
+    startBtn.style.backgroundColor = '#018f04';
     startBtn.disabled = false;
 }
 
