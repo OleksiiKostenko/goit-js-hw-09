@@ -25,6 +25,7 @@ img {
   font-size: 20px;
   cursor: pointer;
   margin-left: 50px;
+  box-shadow:5px 5px 5px #212121;
 }
 
 .body_color{
