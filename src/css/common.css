@@ -31,3 +31,7 @@ img {
 .body_color{
   display: inline-flex;
 }
+
+a{
+    text-decoration: none;
+}
