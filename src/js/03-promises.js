@@ -14,7 +14,6 @@ function onFormSubmit(e) {
      elements: { delay, step, amount }
   } = e.currentTarget;
 
-  console.log(typeof (delay.value))
 
   inputDelayValue = Number(delay.value);
   inputStepValue = Number(step.value);
