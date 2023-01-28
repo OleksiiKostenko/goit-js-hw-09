@@ -15,9 +15,9 @@ function onFormSubmit(e) {
   } = e.currentTarget;
 
 
-  inputDelayValue = Number(delay.value);
-  inputStepValue = Number(step.value);
-  inputAmountValue = Number(amount.value);
+  let inputDelayValue = Number(delay.value);
+  let inputStepValue = Number(step.value);
+  let inputAmountValue = Number(amount.value);
 
   console.log( `delay: ${delay.value}, step: ${step.value}, amount: ${amount.value}  `);
   
